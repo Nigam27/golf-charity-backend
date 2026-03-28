@@ -1,0 +1,83 @@
+2026-03-27 02:45:01 [info]: CRON: Monthly draw scheduler started (0 10 1 * *)
+2026-03-27 02:45:01 [info]: CRON: Analytics snapshot scheduler started
+2026-03-27 02:45:01 [info]: CRON: Lapsed subscription checker started
+2026-03-27 02:45:01 [info]: ⛳ Golf Charity API running on port 5000 [development]
+2026-03-27 02:45:01 [info]:    Health: http://localhost:5000/health
+2026-03-27 02:47:18 [info]: ::1 - - [26/Mar/2026:21:17:18 +0000] "GET /health HTTP/1.1" 200 138 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 02:47:18 [info]: ::1 - - [26/Mar/2026:21:17:18 +0000] "GET /favicon.ico HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:38:33 [info]: CRON: Monthly draw scheduler started (0 10 1 * *)
+2026-03-27 10:38:33 [info]: CRON: Analytics snapshot scheduler started
+2026-03-27 10:38:33 [info]: CRON: Lapsed subscription checker started
+2026-03-27 10:38:33 [info]: ⛳ Golf Charity API running on port 5000 [development]
+2026-03-27 10:38:33 [info]:    Health: http://localhost:5000/health
+2026-03-27 10:38:43 [info]: ::1 - - [27/Mar/2026:05:08:43 +0000] "GET /api/draws?limit=3 HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:38:43 [info]: ::1 - - [27/Mar/2026:05:08:43 +0000] "GET /api/charities?limit=3 HTTP/1.1" 200 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:38:43 [info]: ::1 - - [27/Mar/2026:05:08:43 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:38:43 [info]: ::1 - - [27/Mar/2026:05:08:43 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:39:30 [info]: ::1 - - [27/Mar/2026:05:09:30 +0000] "GET /api/charities HTTP/1.1" 200 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:39:31 [info]: ::1 - - [27/Mar/2026:05:09:31 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:39:49 [info]: ::1 - - [27/Mar/2026:05:09:49 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:39:49 [info]: ::1 - - [27/Mar/2026:05:09:49 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:39:49 [info]: ::1 - - [27/Mar/2026:05:09:49 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:39:50 [info]: ::1 - - [27/Mar/2026:05:09:50 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:40:43 [error]: Error: permission denied for schema public
+    at exports.register (C:\Web Development\golf-app\backend\src\controllers\authController.js:48:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-03-27 10:40:43 [info]: ::1 - - [27/Mar/2026:05:10:43 +0000] "POST /api/auth/register HTTP/1.1" 500 311 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 10:40:52 [error]: Error: permission denied for schema public
+    at exports.register (C:\Web Development\golf-app\backend\src\controllers\authController.js:48:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-03-27 10:40:52 [info]: ::1 - - [27/Mar/2026:05:10:52 +0000] "POST /api/auth/register HTTP/1.1" 500 311 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:04:43 [info]: CRON: Monthly draw scheduler started (0 10 1 * *)
+2026-03-27 11:04:43 [info]: CRON: Analytics snapshot scheduler started
+2026-03-27 11:04:43 [info]: CRON: Lapsed subscription checker started
+2026-03-27 11:04:43 [info]: ⛳ Golf Charity API running on port 5000 [development]
+2026-03-27 11:04:43 [info]:    Health: http://localhost:5000/health
+2026-03-27 11:05:15 [info]: ::1 - - [27/Mar/2026:05:35:15 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:15 [info]: ::1 - - [27/Mar/2026:05:35:15 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:15 [info]: ::1 - - [27/Mar/2026:05:35:15 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:15 [info]: ::1 - - [27/Mar/2026:05:35:15 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:53 [info]: ::1 - - [27/Mar/2026:05:35:53 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:54 [info]: ::1 - - [27/Mar/2026:05:35:54 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:54 [info]: ::1 - - [27/Mar/2026:05:35:54 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:05:54 [info]: ::1 - - [27/Mar/2026:05:35:54 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:15 [info]: ::1 - - [27/Mar/2026:05:36:15 +0000] "GET /api/draws HTTP/1.1" 200 51 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:16 [info]: ::1 - - [27/Mar/2026:05:36:16 +0000] "GET /api/draws HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:18 [info]: ::1 - - [27/Mar/2026:05:36:18 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:18 [info]: ::1 - - [27/Mar/2026:05:36:18 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:23 [info]: ::1 - - [27/Mar/2026:05:36:23 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:23 [info]: ::1 - - [27/Mar/2026:05:36:23 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:24 [info]: ::1 - - [27/Mar/2026:05:36:24 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:24 [info]: ::1 - - [27/Mar/2026:05:36:24 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:52 [info]: ::1 - - [27/Mar/2026:05:36:52 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:52 [info]: ::1 - - [27/Mar/2026:05:36:52 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:56 [info]: ::1 - - [27/Mar/2026:05:36:56 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:57 [info]: ::1 - - [27/Mar/2026:05:36:57 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:57 [info]: ::1 - - [27/Mar/2026:05:36:57 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:06:57 [info]: ::1 - - [27/Mar/2026:05:36:57 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:09 [info]: ::1 - - [27/Mar/2026:05:39:09 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:10 [info]: ::1 - - [27/Mar/2026:05:39:10 +0000] "GET /api/charities HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:10 [info]: ::1 - - [27/Mar/2026:05:39:10 +0000] "GET /api/draws HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:11 [info]: ::1 - - [27/Mar/2026:05:39:11 +0000] "GET /api/draws HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:12 [info]: ::1 - - [27/Mar/2026:05:39:12 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:12 [info]: ::1 - - [27/Mar/2026:05:39:12 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:12 [info]: ::1 - - [27/Mar/2026:05:39:12 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:12 [info]: ::1 - - [27/Mar/2026:05:39:12 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:27 [info]: ::1 - - [27/Mar/2026:05:39:27 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:27 [info]: ::1 - - [27/Mar/2026:05:39:27 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:28 [info]: ::1 - - [27/Mar/2026:05:39:28 +0000] "GET /api/charities?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:09:28 [info]: ::1 - - [27/Mar/2026:05:39:28 +0000] "GET /api/draws?limit=3 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:10:33 [error]: Error: permission denied for schema public
+    at exports.register (C:\Web Development\golf-app\backend\src\controllers\authController.js:48:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-03-27 11:10:33 [info]: ::1 - - [27/Mar/2026:05:40:33 +0000] "POST /api/auth/register HTTP/1.1" 500 311 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-03-27 11:13:03 [info]: CRON: Monthly draw scheduler started (0 10 1 * *)
+2026-03-27 11:13:03 [info]: CRON: Analytics snapshot scheduler started
+2026-03-27 11:13:03 [info]: CRON: Lapsed subscription checker started
+2026-03-27 11:13:03 [info]: Golf Charity API running on port 5000 [development]
+2026-03-27 11:13:03 [info]:    Health: http://localhost:5000/health
+2026-03-27 11:13:11 [info]: CRON: Monthly draw scheduler started (0 10 1 * *)
+2026-03-27 11:13:11 [info]: CRON: Analytics snapshot scheduler started
+2026-03-27 11:13:11 [info]: CRON: Lapsed subscription checker started
+2026-03-27 11:13:11 [info]: Golf Charity API running on port 5000 [development]
+2026-03-27 11:13:11 [info]:  Health: http://localhost:5000/health
