@@ -1,6 +1,6 @@
-# ⛳ Golf Charity Subscription Platform — Backend API
+# Golf Charity Subscription Platform — Backend API
 
-A production-ready Node.js/Express backend for the Golf Charity Subscription Platform. Built to spec against the Digital Heroes PRD.
+A production-ready Node.js/Express backend for the Golf Charity Subscription Platform..
 
 ---
 
